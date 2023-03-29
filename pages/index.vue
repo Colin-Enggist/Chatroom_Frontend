@@ -7,11 +7,10 @@
 
 <script setup>
 onMounted(()=>{
-  
   if(_auth.bearer !== null){
     console.log("töööten")
   }else{
-    navigateTo('/login')
+    useNavigation("login")
   }
   return;
   })

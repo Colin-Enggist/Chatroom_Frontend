@@ -1,3 +1,6 @@
 <template>
-  <p>This is the Login Page</p>
+  <AuthContainer type="Login" swapmsg="New to the Site? Click on me!">
+    <AuthInput placeholder="name"/>
+    <AuthInput placeholder="password"/>
+  </AuthContainer>
 </template>
