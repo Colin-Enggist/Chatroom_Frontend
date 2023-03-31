@@ -1,5 +1,5 @@
 <template>
-  <AuthResetcont type="Reset Password" >
+  <AuthResetcont>
     <AuthComponentsInput placeholder="Set Password"/>
     <AuthComponentsInput placeholder="Confirm Password"/>
   </AuthResetcont>

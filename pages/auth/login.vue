@@ -1,5 +1,5 @@
 <template>
-  <AuthContainer type="Login" swapmsg="New to the Site? Click on me!">
+  <AuthContainer type="Login" >
     <AuthComponentsInput placeholder="name"/>
     <AuthComponentsInput placeholder="password"/>
   </AuthContainer>

@@ -1,5 +1,5 @@
 <template>
-  <AuthForgotcont type="Forgot Password" swapmsg="Remembered again? Login now!">
+  <AuthForgotcont>
     <AuthComponentsInput placeholder="E-mail"/>
   </AuthForgotcont>
 </template>
