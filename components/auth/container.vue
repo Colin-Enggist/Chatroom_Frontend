@@ -5,7 +5,7 @@
     <button @click="()=>authswap()" class="absolute bottom-4 left-4 text-indigo-300 w-fit rounded-lg border-none p-1 h-fit">
       <p>{{ props.swapmsg }}</p>
     </button>
-    <button @click="forgothandler()" class="absolute bottom-16 left-4 text-indigo-300 w-fit rounded-lg border-none p-1 h-fit">
+    <button @click="()=>forgothandler()" class="absolute bottom-16 left-4 text-indigo-300 w-fit rounded-lg border-none p-1 h-fit">
       <p>Forgot your Password?</p>
     </button>
     <button class="absolute bottom-3 right-8 bg-indigo-200 w-fit rounded-lg border-none h-fit p-2">
@@ -20,15 +20,15 @@ const props = defineProps({
   swapmsg: String,
 });
 const forgothandler= ()=>{
-  return useNavigation("forgot")
+  return useNavigation(_auth.paths.forgot)
 }
 const authswap= ()=>{
   switch(props.type){
     case "Login":
-      useNavigation("register");
+      useNavigation(_auth.paths.register);
     break;
     case "Register":
-      useNavigation("login");
+      useNavigation(_auth.paths.login);
     break;
   }
 }
