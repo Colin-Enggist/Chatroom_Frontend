@@ -1,5 +1,7 @@
 <template>
-  <AuthForgotcont>
+  <AuthContainer type="Forgot Password">
     <AuthComponentsInput placeholder="E-mail"/>
-  </AuthForgotcont>
+    <AuthComponentsSwap/>
+    <AuthComponentsSubmit/>
+  </AuthContainer>
 </template>

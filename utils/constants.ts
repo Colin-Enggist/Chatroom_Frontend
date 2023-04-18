@@ -9,6 +9,13 @@ const _auth:auth={
     register: "/auth/register",
     reset: "/auth/reset",
   },
+  API: {
+    index: "http://localhost:1337/api",
+    login: "http://localhost:1337/api/auth/local",
+    register: "http://localhost:1337/api/auth/local/register",
+  },
+  AUTH_TOKEN: "Token",
+  BEARER: null,
 }
 
 export {_auth}
