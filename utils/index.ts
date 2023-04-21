@@ -12,6 +12,7 @@ interface auth {
     index: string,
     login: string,
     register: string,
+    forgot: string,
   },
   AUTH_TOKEN: string,
   BEARER: string|null,

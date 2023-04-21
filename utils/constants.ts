@@ -13,6 +13,7 @@ const _auth:auth={
     index: "http://localhost:1337/api",
     login: "http://localhost:1337/api/auth/local",
     register: "http://localhost:1337/api/auth/local/register",
+    forgot: "http://localhost:1337/api/auth/forgot-password",
   },
   AUTH_TOKEN: "Token",
   BEARER: null,
